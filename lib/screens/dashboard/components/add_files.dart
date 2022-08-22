@@ -28,6 +28,13 @@ class AddFilesButton extends StatelessWidget {
           ],
           mimeTypes: ['video/*'],
         ),
+        XTypeGroup(
+          label: 'All',
+          extensions: [
+            '*',
+          ],
+          mimeTypes: ['*'],
+        ),
       ],
     );
     if (files.isEmpty) {
