@@ -33,6 +33,7 @@ class AddFilesButton extends StatelessWidget {
           extensions: [
             '*',
           ],
+          mimeTypes: ['*'],
         ),
       ],
     );
