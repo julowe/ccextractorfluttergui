@@ -29,11 +29,10 @@ class AddFilesButton extends StatelessWidget {
           mimeTypes: ['video/*'],
         ),
         XTypeGroup(
-          label: 'All',
+          label: 'All Files',
           extensions: [
             '*',
           ],
-          mimeTypes: ['*'],
         ),
       ],
     );
